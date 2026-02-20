@@ -1,0 +1,24 @@
+# Module Contract Template
+# This file defines what a module requires and produces.
+# It is the interface contract the Assignment Agent compiles against.
+
+id: "<domain>.<discipline>.<concept>_v<n>"
+title: "{{ Title }}"
+description: "{{ One-line description }}"
+version: 1
+
+# What competencies must the learner already have?
+requires:
+  - "<domain>.<discipline>.<concept>.<operation>"
+
+# What competencies does this module produce?
+produces:
+  - "<domain>.<discipline>.<concept>.<operation>"
+
+# Controlled verbs for <operation>:
+#   identify, trace, construct, transform, predict, diagnose, formalize, apply
+
+# Assignments that fulfill this contract
+assignments:
+  - a01_<name>
+  - a02_<name>

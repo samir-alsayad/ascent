@@ -1,0 +1,20 @@
+version: 2
+student_id: "local_user"
+
+# Local Learner State (Ledger)
+# This file tracks the explicit completion and claims of the user.
+
+tier_1_claims: 
+  # Self-reported concepts the user claims to know.
+  - 
+
+tier_2_practiced: 
+  # Individual assignments the user actually submitted.
+  computing.fundamentals.cli_basics_v1.a01_argparse_intro:
+    completed_at: "2026-02-06T07:30:00Z"
+    score: 1.0
+    source: "cli_submit"
+
+tier_3_verified: 
+  # Concept clusters the user passed a strict Exam for.
+  {}

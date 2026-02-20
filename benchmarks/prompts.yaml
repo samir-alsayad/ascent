@@ -1,0 +1,8 @@
+# Prompt Version Configuration
+# Controls which prompt templates are used by the Agent Orchestrator.
+# Paths are relative to engine/agents/prompts/
+
+track: "track/v7_standard.md"
+campaign: "campaign/v1_standard.md"
+module: "module/v1_from_proposal.md"
+assignment: "assignment/v1_standard.md"

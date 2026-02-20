@@ -1,0 +1,15 @@
+name: "[Track Name]"
+id: "[track_id]"
+description: "[Brief summary of the learning path]"
+
+# Sequence of Modules
+modules:
+  - id: "module_01"
+    description: "Introductory concepts"
+  - id: "module_02"
+    description: "Intermediate application"
+
+# Track Invariants
+# What should be true across this entire path?
+invariants:
+  - "Student must demonstrate [Skill X] before entering [Module Y]"

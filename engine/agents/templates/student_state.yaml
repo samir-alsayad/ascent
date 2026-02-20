@@ -1,0 +1,23 @@
+# Local Learner State (Ledger)
+# This file tracks the explicit completion and claims of the user.
+# It is parsed by the Core CLI to compute absolute progress.
+
+tier_1_claims: 
+  # Self-reported concepts the user claims to know.
+  # The system TRUSTS these to skip early curriculum generation (e.g. math.algebra_I)
+  - 
+
+tier_2_practiced: 
+  # Individual assignments the user actually submitted.
+  # Proof of effort and exposure.
+  # Example Format:
+  # computing.fundamentals.algorithms_v1.a01_big_o:
+  #   completed_at: "2026-02-19T10:00:00Z"
+
+tier_3_verified: 
+  # Concept clusters the user passed a strict Exam for.
+  # Absolute proof of mastery.
+  # Example Format:
+  # computing.fundamentals.algorithms_v1:
+  #   verified_at: "2026-02-19T14:00:00Z"
+  #   score: 0.95

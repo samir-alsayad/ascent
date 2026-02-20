@@ -1,0 +1,10 @@
+# Generation Log — emitted per assignment by the Assignment Agent
+# Used for diagnosing model behavior during benchmarking.
+
+source_module: "<domain>.<discipline>.<concept>_v<n>"
+target_competency: "<domain>.<discipline>.<concept>.<operation>"
+assumed_prerequisites:
+  - "<competency_id>"
+why_atomic: "{{ Brief justification for why this is a single assignment }}"
+generated_by: "{{ model_id }}"
+generated_at: "{{ ISO 8601 timestamp }}"

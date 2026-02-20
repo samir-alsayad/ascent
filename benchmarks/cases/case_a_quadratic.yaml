@@ -1,0 +1,4 @@
+run_name: case_a_quadratic_baseline
+model: qwen/qwen3-coder-next
+goal: "I want to learn how to calculate the roots of a quadratic function using Python."
+learner_state: "../profiles/blank_slate.yaml"

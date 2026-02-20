@@ -1,0 +1,15 @@
+version: 2
+student_id: "math_expert"
+
+# Local Learner State (Ledger)
+# This file tracks the explicit completion and claims of the user.
+
+tier_1_claims: []
+
+tier_2_practiced: {}
+
+tier_3_verified: 
+  # Absolute proof of mastery in Mathematics.
+  mathematics.algebra.quadratic_equations:
+    verified_at: "2026-02-20T00:00:00Z"
+    score: 1.0

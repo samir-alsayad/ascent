@@ -1,0 +1,17 @@
+id: "track_slug"
+title: "Track Title Here"
+description: "A brief description of what this track achieves."
+goal: "The original user goal string."
+
+domains:
+  - "domain_name"
+
+# The Learning Path is divided into Campaigns (Chapters).
+# Each campaign references modules by their canonical ID.
+# Module definitions are NOT included here — they are generated separately by the Module Agent.
+campaigns:
+  - id: "campaign_slug"
+    title: "Campaign Title"
+    description: "Focus of this campaign."
+    modules:
+      - "domain.subdomain.concept_a"
